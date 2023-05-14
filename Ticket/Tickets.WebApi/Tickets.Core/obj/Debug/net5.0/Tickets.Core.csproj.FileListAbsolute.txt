@@ -1,0 +1,12 @@
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Core\bin\Debug\net5.0\Tickets.Core.deps.json
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Core\bin\Debug\net5.0\Tickets.Core.dll
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Core\bin\Debug\net5.0\ref\Tickets.Core.dll
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Core\bin\Debug\net5.0\Tickets.Core.pdb
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Core\obj\Debug\net5.0\Tickets.Core.csproj.AssemblyReference.cache
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Core\obj\Debug\net5.0\Tickets.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Core\obj\Debug\net5.0\Tickets.Core.AssemblyInfoInputs.cache
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Core\obj\Debug\net5.0\Tickets.Core.AssemblyInfo.cs
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Core\obj\Debug\net5.0\Tickets.Core.csproj.CoreCompileInputs.cache
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Core\obj\Debug\net5.0\Tickets.Core.dll
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Core\obj\Debug\net5.0\ref\Tickets.Core.dll
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Core\obj\Debug\net5.0\Tickets.Core.pdb

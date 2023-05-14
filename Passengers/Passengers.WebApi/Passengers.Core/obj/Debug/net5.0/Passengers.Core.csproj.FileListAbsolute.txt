@@ -10,3 +10,15 @@ C:\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.Core\obj\Debug\net5.0
 C:\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.Core\obj\Debug\net5.0\Passengers.Core.dll
 C:\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.Core\obj\Debug\net5.0\ref\Passengers.Core.dll
 C:\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.Core\obj\Debug\net5.0\Passengers.Core.pdb
+C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.Core\bin\Debug\net5.0\Passengers.Core.deps.json
+C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.Core\bin\Debug\net5.0\Passengers.Core.dll
+C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.Core\bin\Debug\net5.0\Passengers.Core.pdb
+C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.Core\obj\Debug\net5.0\Passengers.Core.csproj.AssemblyReference.cache
+C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.Core\obj\Debug\net5.0\Passengers.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.Core\obj\Debug\net5.0\Passengers.Core.AssemblyInfoInputs.cache
+C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.Core\obj\Debug\net5.0\Passengers.Core.AssemblyInfo.cs
+C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.Core\obj\Debug\net5.0\Passengers.Core.csproj.CoreCompileInputs.cache
+C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.Core\obj\Debug\net5.0\Passengers.Core.dll
+C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.Core\obj\Debug\net5.0\refint\Passengers.Core.dll
+C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.Core\obj\Debug\net5.0\Passengers.Core.pdb
+C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.Core\obj\Debug\net5.0\ref\Passengers.Core.dll

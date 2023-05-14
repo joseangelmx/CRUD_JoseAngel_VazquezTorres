@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/q2z8Xtju93JUyiE0mEzrVXRaDxek+Rr98Ye5zoZpwPYm4ad+xm+sShRp4JOxbU7W7m8ZomrVKtGrX+bWi1g9w==",
+  "dgSpecHash": "YvBybGMFu3wz2zzADsr+lSFpdsxx4YfrLaysejINhtUt1q4arxyqxU8kLgoKokVI7dT4ibWF2WjD2rDe15IuaA==",
   "success": true,
-  "projectFilePath": "C:\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj",
+  "projectFilePath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SANDRA\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\SANDRA\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

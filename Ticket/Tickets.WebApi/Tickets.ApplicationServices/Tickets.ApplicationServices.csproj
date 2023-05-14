@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tickets.Core\Tickets.Core.csproj" />
+    <ProjectReference Include="..\Tickets.DataAccess\Tickets.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

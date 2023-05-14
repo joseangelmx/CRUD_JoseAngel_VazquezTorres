@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj": {}
+    "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj": {
+    "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj",
+        "projectUniqueName": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj",
         "projectName": "Passengers.Core",
-        "projectPath": "C:\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj",
+        "projectPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj",
         "packagesPath": "C:\\Users\\SANDRA\\.nuget\\packages\\",
-        "outputPath": "C:\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\obj\\",
+        "outputPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SANDRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,7 +51,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -60,18 +61,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.116\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj": {
+    "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj",
         "projectName": "Passengers.DataAccess",
-        "projectPath": "C:\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj",
+        "projectPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj",
         "packagesPath": "C:\\Users\\SANDRA\\.nuget\\packages\\",
-        "outputPath": "C:\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SANDRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +89,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj": {
-                "projectPath": "C:\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj"
+              "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj": {
+                "projectPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj"
               }
             }
           }
@@ -135,7 +136,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -144,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.116\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

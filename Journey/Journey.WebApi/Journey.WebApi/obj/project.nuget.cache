@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "iW22AmBr4x73iNNAkMktporchP9yWMWqszTSCI7sc3pFhiJ9Z3agkf18PCDq4k+lnyR3X7WrI09cL+39sIIVIw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Journey\\Journey.WebApi\\Journey.WebApi\\Journey.WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SANDRA\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\SANDRA\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\SANDRA\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\SANDRA\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\SANDRA\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\SANDRA\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

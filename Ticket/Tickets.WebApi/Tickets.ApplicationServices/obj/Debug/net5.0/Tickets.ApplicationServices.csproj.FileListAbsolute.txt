@@ -1,0 +1,17 @@
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.ApplicationServices\bin\Debug\net5.0\Tickets.ApplicationServices.deps.json
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.ApplicationServices\bin\Debug\net5.0\Tickets.ApplicationServices.dll
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.ApplicationServices\bin\Debug\net5.0\ref\Tickets.ApplicationServices.dll
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.ApplicationServices\bin\Debug\net5.0\Tickets.ApplicationServices.pdb
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.ApplicationServices\bin\Debug\net5.0\Tickets.Core.dll
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.ApplicationServices\bin\Debug\net5.0\Tickets.DataAccess.dll
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.ApplicationServices\bin\Debug\net5.0\Tickets.Core.pdb
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.ApplicationServices\bin\Debug\net5.0\Tickets.DataAccess.pdb
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.ApplicationServices\obj\Debug\net5.0\Tickets.ApplicationServices.csproj.AssemblyReference.cache
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.ApplicationServices\obj\Debug\net5.0\Tickets.ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.ApplicationServices\obj\Debug\net5.0\Tickets.ApplicationServices.AssemblyInfoInputs.cache
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.ApplicationServices\obj\Debug\net5.0\Tickets.ApplicationServices.AssemblyInfo.cs
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.ApplicationServices\obj\Debug\net5.0\Tickets.ApplicationServices.csproj.CoreCompileInputs.cache
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.ApplicationServices\obj\Debug\net5.0\Tickets.ApplicationServices.csproj.CopyComplete
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.ApplicationServices\obj\Debug\net5.0\Tickets.ApplicationServices.dll
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.ApplicationServices\obj\Debug\net5.0\ref\Tickets.ApplicationServices.dll
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.ApplicationServices\obj\Debug\net5.0\Tickets.ApplicationServices.pdb
