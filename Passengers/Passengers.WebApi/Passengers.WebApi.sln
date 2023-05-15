@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33529.622
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passengers.WebApi", "Passengers.WebApi\Passengers.WebApi.csproj", "{813653C0-F964-4F6B-986C-00D1D5C5ADEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Passengers.WebApi", "Passengers.WebApi\Passengers.WebApi.csproj", "{813653C0-F964-4F6B-986C-00D1D5C5ADEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passengers.ApplicationServices", "Passengers.ApplicationServices\Passengers.ApplicationServices.csproj", "{C898E6E8-1619-4492-AC82-36C6D57A8B68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Passengers.ApplicationServices", "Passengers.ApplicationServices\Passengers.ApplicationServices.csproj", "{C898E6E8-1619-4492-AC82-36C6D57A8B68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passengers.Core", "Passengers.Core\Passengers.Core.csproj", "{4D2813A4-0B94-4A22-BDA3-8282D5542EC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Passengers.Core", "Passengers.Core\Passengers.Core.csproj", "{4D2813A4-0B94-4A22-BDA3-8282D5542EC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passengers.DataAccess", "Passengers.DataAccess\Passengers.DataAccess.csproj", "{2AFA7582-0040-48CA-B570-5016275532EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Passengers.DataAccess", "Passengers.DataAccess\Passengers.DataAccess.csproj", "{2AFA7582-0040-48CA-B570-5016275532EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Passengers.UnitTest", "Passengers.UnitTest\Passengers.UnitTest.csproj", "{9B58DD19-3D24-4475-A4E9-693D16051912}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passengers.Shared", "Passengers.Shared\Passengers.Shared.csproj", "{5845FDB5-6457-40E7-BB80-48699BA237EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{2AFA7582-0040-48CA-B570-5016275532EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AFA7582-0040-48CA-B570-5016275532EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AFA7582-0040-48CA-B570-5016275532EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B58DD19-3D24-4475-A4E9-693D16051912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B58DD19-3D24-4475-A4E9-693D16051912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B58DD19-3D24-4475-A4E9-693D16051912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B58DD19-3D24-4475-A4E9-693D16051912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5845FDB5-6457-40E7-BB80-48699BA237EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5845FDB5-6457-40E7-BB80-48699BA237EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5845FDB5-6457-40E7-BB80-48699BA237EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5845FDB5-6457-40E7-BB80-48699BA237EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

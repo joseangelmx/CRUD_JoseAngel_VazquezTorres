@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Passengers.Core.Passengers;
 using System;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Passengers.DataAccess
 {
-    public class PassengersContext : IdentityDbContext
+    public class PassengersContext : IdentityDbContext<IdentityUser, IdentityRole, string>
     {
 
 

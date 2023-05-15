@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Passengers.Shared/1.0.0": {
+        "runtime": {
+          "Passengers.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Passengers.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

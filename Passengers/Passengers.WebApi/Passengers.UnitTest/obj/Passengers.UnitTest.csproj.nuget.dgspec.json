@@ -1,0 +1,458 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.UnitTest\\Passengers.UnitTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.ApplicationServices\\Passengers.ApplicationServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.ApplicationServices\\Passengers.ApplicationServices.csproj",
+        "projectName": "Passengers.ApplicationServices",
+        "projectPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.ApplicationServices\\Passengers.ApplicationServices.csproj",
+        "packagesPath": "C:\\Users\\SANDRA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.ApplicationServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SANDRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj": {
+                "projectPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj"
+              },
+              "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.116\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj",
+        "projectName": "Passengers.Core",
+        "projectPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj",
+        "packagesPath": "C:\\Users\\SANDRA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SANDRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.116\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj",
+        "projectName": "Passengers.DataAccess",
+        "projectPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\SANDRA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SANDRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj": {
+                "projectPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.116\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Shared\\Passengers.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Shared\\Passengers.Shared.csproj",
+        "projectName": "Passengers.Shared",
+        "projectPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Shared\\Passengers.Shared.csproj",
+        "packagesPath": "C:\\Users\\SANDRA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SANDRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.116\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.UnitTest\\Passengers.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.UnitTest\\Passengers.UnitTest.csproj",
+        "projectName": "Passengers.UnitTest",
+        "projectPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.UnitTest\\Passengers.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\SANDRA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SANDRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.WebApi\\Passengers.WebApi.csproj": {
+                "projectPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.WebApi\\Passengers.WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.116\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.WebApi\\Passengers.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.WebApi\\Passengers.WebApi.csproj",
+        "projectName": "Passengers.WebApi",
+        "projectPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.WebApi\\Passengers.WebApi.csproj",
+        "packagesPath": "C:\\Users\\SANDRA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SANDRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.ApplicationServices\\Passengers.ApplicationServices.csproj": {
+                "projectPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.ApplicationServices\\Passengers.ApplicationServices.csproj"
+              },
+              "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj": {
+                "projectPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj"
+              },
+              "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Shared\\Passengers.Shared.csproj": {
+                "projectPath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.Shared\\Passengers.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.30.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.MySQL": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.116\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
