@@ -19,6 +19,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using Passengers.Shared.Config;
 using Microsoft.AspNetCore.Identity;
+using Passengers.WebApi.Auth;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.Extensions.Options;
+
+using System.Text;
+using Microsoft.IdentityModel.Tokens;
 
 namespace Passengers.WebApi
 {
@@ -56,6 +62,8 @@ namespace Passengers.WebApi
             });
             services.AddTransient<IPassengersAppService, PassengersAppService>();
             services.AddTransient<IRepository<int, Passenger>, Repository<int, Passenger>>();
+            services.Configure<JwtTokenValidationSettings>(Configuration.GetSection("JwtTokenValidationSettings"));
+            services.AddTransient<IJwtIssuerOptions, JwtIssuerFactory>();
             services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc("v1", new OpenApiInfo
@@ -69,8 +77,49 @@ namespace Passengers.WebApi
                         Url = new Uri("https://github.com/joseangelmx")
                     }
                 });
+                options.AddSecurityDefinition(JwtBearerDefaults.AuthenticationScheme, new OpenApiSecurityScheme
+                {
+                    Description="Jwt Authorization header using the bearer scheme  \r\n\r\n Enter your token in the text input before \r\n ",
+                    In = ParameterLocation.Header,
+                    Name = "Authorization",
+                    Type = SecuritySchemeType.ApiKey,
+                    BearerFormat = "JWT",
+                    Scheme = JwtBearerDefaults.AuthenticationScheme
+                });
+                options.AddSecurityRequirement(new OpenApiSecurityRequirement()
+                {
+                    {
+                    new OpenApiSecurityScheme
+                    {
+                        Reference = new OpenApiReference
+                        {
+                            Type=ReferenceType.SecurityScheme,
+                            Id=JwtBearerDefaults.AuthenticationScheme
+                        }
+                    },
+                        new string[]{}
+                }
+                });
             });
-            services.Configure<JwtTokenValidationSettings>(Configuration.GetSection("JwtTokenValidationSettings"));
+            var tokenValidationSettings = services.BuildServiceProvider().GetService<IOptions<JwtTokenValidationSettings>>().Value;
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(options =>
+            {
+                options.RequireHttpsMetadata = false;
+                options.SaveToken = true;
+                options.TokenValidationParameters = new TokenValidationParameters 
+                {
+                    ValidIssuer = tokenValidationSettings.ValidIssuer,
+                    ValidAudience = tokenValidationSettings.ValidAudience,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(tokenValidationSettings.SecretKey)),
+                    ClockSkew = TimeSpan.Zero
+                };
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -84,11 +133,13 @@ namespace Passengers.WebApi
             {
                 app.UseExceptionHandler("/error");
             }
+            app.InitDb();
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Passengers.WebApi v1"));
             app.UseHttpsRedirection();
             app.UseRouting();
             app.UseSerilogRequestLogging();
+            app.UseAuthentication();
             app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {

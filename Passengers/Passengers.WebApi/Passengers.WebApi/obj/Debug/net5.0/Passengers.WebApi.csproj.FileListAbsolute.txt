@@ -149,3 +149,9 @@ C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.WebApi\b
 C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.WebApi\bin\Debug\net5.0\Passengers.Shared.dll
 C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.WebApi\bin\Debug\net5.0\Passengers.Shared.pdb
+C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.WebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.WebApi\bin\Debug\net5.0\NodaTime.dll
+C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\SANDRA\Ejercicio_FInal\Passengers\Passengers.WebApi\Passengers.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

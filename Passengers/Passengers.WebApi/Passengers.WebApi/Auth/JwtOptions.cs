@@ -44,7 +44,7 @@ namespace Passengers.WebApi.Auth
             Expires = IssuedAt.Add(ValidFor);
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(options.Value.SecretKey));
-            SigningCredentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+            SigningCredentials = new SigningCredentials(key, SecurityAlgorithms.Aes128CbcHmacSha256);
 
         }
         public async Task<String> JtiGenerator()

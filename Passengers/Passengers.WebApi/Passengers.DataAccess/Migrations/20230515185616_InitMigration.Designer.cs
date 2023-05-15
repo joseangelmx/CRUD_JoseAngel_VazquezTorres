@@ -9,8 +9,8 @@ using Passengers.DataAccess;
 namespace Passengers.DataAccess.Migrations
 {
     [DbContext(typeof(PassengersContext))]
-    [Migration("20230515062654_Identity")]
-    partial class Identity
+    [Migration("20230515185616_InitMigration")]
+    partial class InitMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
