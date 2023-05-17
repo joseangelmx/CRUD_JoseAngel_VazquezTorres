@@ -1,0 +1,12 @@
+C:\Users\SANDRA\Ejercicio_FInal\Journey\Journeys.WebApi\Journeys.Shared\bin\Debug\net5.0\Journeys.Shared.deps.json
+C:\Users\SANDRA\Ejercicio_FInal\Journey\Journeys.WebApi\Journeys.Shared\bin\Debug\net5.0\Journeys.Shared.dll
+C:\Users\SANDRA\Ejercicio_FInal\Journey\Journeys.WebApi\Journeys.Shared\bin\Debug\net5.0\ref\Journeys.Shared.dll
+C:\Users\SANDRA\Ejercicio_FInal\Journey\Journeys.WebApi\Journeys.Shared\bin\Debug\net5.0\Journeys.Shared.pdb
+C:\Users\SANDRA\Ejercicio_FInal\Journey\Journeys.WebApi\Journeys.Shared\obj\Debug\net5.0\Journeys.Shared.csproj.AssemblyReference.cache
+C:\Users\SANDRA\Ejercicio_FInal\Journey\Journeys.WebApi\Journeys.Shared\obj\Debug\net5.0\Journeys.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SANDRA\Ejercicio_FInal\Journey\Journeys.WebApi\Journeys.Shared\obj\Debug\net5.0\Journeys.Shared.AssemblyInfoInputs.cache
+C:\Users\SANDRA\Ejercicio_FInal\Journey\Journeys.WebApi\Journeys.Shared\obj\Debug\net5.0\Journeys.Shared.AssemblyInfo.cs
+C:\Users\SANDRA\Ejercicio_FInal\Journey\Journeys.WebApi\Journeys.Shared\obj\Debug\net5.0\Journeys.Shared.csproj.CoreCompileInputs.cache
+C:\Users\SANDRA\Ejercicio_FInal\Journey\Journeys.WebApi\Journeys.Shared\obj\Debug\net5.0\Journeys.Shared.dll
+C:\Users\SANDRA\Ejercicio_FInal\Journey\Journeys.WebApi\Journeys.Shared\obj\Debug\net5.0\ref\Journeys.Shared.dll
+C:\Users\SANDRA\Ejercicio_FInal\Journey\Journeys.WebApi\Journeys.Shared\obj\Debug\net5.0\Journeys.Shared.pdb

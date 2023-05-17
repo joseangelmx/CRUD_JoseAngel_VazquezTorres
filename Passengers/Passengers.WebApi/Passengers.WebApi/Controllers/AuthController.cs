@@ -13,12 +13,15 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using NodaTime;
+using Microsoft.Extensions.Caching.Memory;
+
 namespace Passengers.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class AuthController : ControllerBase
     {
+        private readonly IMemoryCache _cache;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly IJwtIssuerOptions _jwtOptions;
@@ -29,13 +32,14 @@ namespace Passengers.WebApi.Controllers
             SignInManager<IdentityUser> signInManager,
             IJwtIssuerOptions jwtOptions,
             RoleManager<IdentityRole> roleManager,
-            IOptions<JwtTokenValidationSettings> jwtConfig)
+            IOptions<JwtTokenValidationSettings> jwtConfig, IMemoryCache cache)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _jwtOptions = jwtOptions;
             _roleManager = roleManager;
             _jwtConfig = jwtConfig;
+            _cache = cache;
         }
         [HttpPost]
         public async Task<IActionResult> Login(LoginModel model)
@@ -95,6 +99,7 @@ namespace Passengers.WebApi.Controllers
                 signingCredentials: _jwtOptions.SigningCredentials
                 );
             var result = new JwtSecurityTokenHandler().WriteToken(jwt);
+            _cache.Set(user.Id, jwt, TimeSpan.FromMinutes(30));
             return result;
         }
     }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using Tickets.Core.Tickets;
 
 namespace Tickets.DataAccess
 {
-    public class TicketsContext : IdentityDbContext
+    public class TicketsContext : IdentityDbContext<IdentityUser, IdentityRole, string>
     {
         public DbSet<Ticket> Tickets { get; set; }
 

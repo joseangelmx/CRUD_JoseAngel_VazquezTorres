@@ -55,6 +55,7 @@ namespace Passengers.WebApi
                     opts.Password.RequiredUniqueChars = 4;
                 }).AddEntityFrameworkStores<PassengersContext>()
                 .AddDefaultTokenProviders();
+            services.AddMemoryCache();
             services.AddControllers();
             services.Configure<ApiBehaviorOptions>(options =>
             {

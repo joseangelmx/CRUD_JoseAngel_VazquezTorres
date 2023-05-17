@@ -41,7 +41,7 @@ namespace Passengers.WebApi.Auth
             NotBefore = IssuedAt;
 
             ValidFor = TimeSpan.FromMinutes(options.Value.Duration);
-            Expires = IssuedAt.Add(ValidFor);
+            Expires = DateTime.UtcNow.AddMinutes(30);
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(options.Value.SecretKey));
             SigningCredentials = new SigningCredentials(key, SecurityAlgorithms.Aes128CbcHmacSha256);

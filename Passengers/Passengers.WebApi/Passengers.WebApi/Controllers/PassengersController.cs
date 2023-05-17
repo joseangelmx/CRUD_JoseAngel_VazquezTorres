@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Passengers.ApplicationServices.Passengers;
 using Passengers.Core.Passengers;
@@ -28,45 +29,95 @@ namespace Passengers.WebApi.Controllers
         [HttpGet]
         public async Task<List<Passenger>> GetAll()
         {
-            List<Passenger> passengers = await _passengersAppService.GetPassengersAsync();
-            _logger.LogInformation("Total passengers: " + passengers?.Count);
-            return (passengers);
+            try
+            {
+                List<Passenger> passengers = await _passengersAppService.GetPassengersAsync();
+                _logger.LogInformation("Total passengers: {Count}", passengers?.Count);
+                return passengers;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error occurred while retrieving passengers.");
+                throw; 
+            }
         }
+
 
         // GET api/<PassengersController>/5
         [HttpGet("{id}")]
         public async Task<Passenger> Get(int id)
         {
             Passenger passenger = await _passengersAppService.GetPassengerAsync(id);
-            _logger.LogInformation("Get Passenger " + id);
-            return passenger;
+
+            if (passenger != null)
+            {
+                _logger.LogInformation("Get Passenger {Id}", id);
+                return passenger;
+            }
+            else
+            {
+                _logger.LogWarning("Passenger with ID {Id} not found", id);
+                return null;
+            }
         }
+
 
         // POST api/<PassengersController>
         [HttpPost]
-        public async Task Insert([FromBody] Passenger value)
+        [Authorize]
+        public async Task<IActionResult> Insert([FromBody] Passenger value)
         {
-
-            await _passengersAppService.AddPassengerAsync(value);
-            _logger.LogInformation("Get Passenger " + value.FirstName+" "+value.LastName);
+            try
+            {
+                await _passengersAppService.AddPassengerAsync(value);
+                _logger.LogInformation("Inserted Passenger: {FullName}", $"{value.FirstName} {value.LastName}");
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error occurred while inserting passenger.");
+                return StatusCode(500, "An error occurred while inserting the passenger. Please try again later.");
+            }
         }
+
 
         // PUT api/<PassengersController>/5
+        [Authorize]
         [HttpPut("{id}")]
-        public async Task Edit(int id, [FromBody] Passenger value)
+        public async Task<IActionResult> Edit(int id, [FromBody] Passenger value)
         {
-            value.Id = id;
-            await _passengersAppService.EditPassengerAsync(value);
-            _logger.LogInformation("Edit Passenger " + value.Id);
+            try
+            {
+                value.Id = id;
+                await _passengersAppService.EditPassengerAsync(value);
+                _logger.LogInformation("Edited Passenger: {Id}", id);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error occurred while editing passenger.");
+                return StatusCode(500, "An error occurred while editing the passenger. Please try again later.");
+            }
         }
 
+
         // DELETE api/<PassengersController>/5
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            await _passengersAppService.DeletePassengerAsync(id);
-            _logger.LogInformation("Delete Passenger " + id);
-            return Ok();
+            try
+            {
+                await _passengersAppService.DeletePassengerAsync(id);
+                _logger.LogInformation("Deleted Passenger: {Id}", id);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error occurred while deleting passenger.");
+                return StatusCode(500, "An error occurred while deleting the passenger. Please try again later.");
+            }
         }
+
     }
 }

@@ -215,16 +215,13 @@ namespace Tickets.DataAccess.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("Arrival")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<DateTime>("Departure")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<int>("DestinationId")
+                    b.Property<int>("JourneyId")
                         .HasColumnType("int");
 
-                    b.Property<int>("OriginId")
+                    b.Property<int>("PassengerId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Seat")
                         .HasColumnType("int");
 
                     b.HasKey("Id");

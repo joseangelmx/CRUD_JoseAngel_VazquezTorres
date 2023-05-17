@@ -12,12 +12,10 @@ namespace Tickets.Core.Tickets
         [Key]
         public int Id { get; set; }
         [Required]
-        public int DestinationId { get; set; }
+        public int JourneyId { get; set; }
         [Required]
-        public int OriginId { get; set; }
+        public int PassengerId { get; set; }
         [Required]
-        public DateTime Departure { get; set; }
-        [Required]
-        public DateTime Arrival { get; set; }
+        public int Seat { get; set; }
     }
 }

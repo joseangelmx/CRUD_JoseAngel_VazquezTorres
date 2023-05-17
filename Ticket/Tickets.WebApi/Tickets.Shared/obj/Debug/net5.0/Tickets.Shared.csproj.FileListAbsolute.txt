@@ -1,0 +1,12 @@
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Shared\bin\Debug\net5.0\Tickets.Shared.deps.json
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Shared\bin\Debug\net5.0\Tickets.Shared.dll
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Shared\bin\Debug\net5.0\ref\Tickets.Shared.dll
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Shared\bin\Debug\net5.0\Tickets.Shared.pdb
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Shared\obj\Debug\net5.0\Tickets.Shared.csproj.AssemblyReference.cache
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Shared\obj\Debug\net5.0\Tickets.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Shared\obj\Debug\net5.0\Tickets.Shared.AssemblyInfoInputs.cache
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Shared\obj\Debug\net5.0\Tickets.Shared.AssemblyInfo.cs
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Shared\obj\Debug\net5.0\Tickets.Shared.csproj.CoreCompileInputs.cache
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Shared\obj\Debug\net5.0\Tickets.Shared.dll
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Shared\obj\Debug\net5.0\ref\Tickets.Shared.dll
+C:\Users\SANDRA\Ejercicio_FInal\Ticket\Tickets.WebApi\Tickets.Shared\obj\Debug\net5.0\Tickets.Shared.pdb

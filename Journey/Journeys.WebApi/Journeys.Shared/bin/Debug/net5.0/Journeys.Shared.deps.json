@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Journeys.Shared/1.0.0": {
+        "runtime": {
+          "Journeys.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Journeys.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
