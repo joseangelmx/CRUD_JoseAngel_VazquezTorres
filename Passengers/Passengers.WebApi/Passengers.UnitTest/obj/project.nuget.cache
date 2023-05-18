@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "phRgZd2JkvEemc7p81e0j9JZRxG/2L1+ehl8K1N3zB7NP9Zjjh9Enr3ncBVDokHOqiMe04we4yWXEZWRKb3xNA==",
+  "dgSpecHash": "5GKRVsJ3Vf/0klu5da+j7mrdlW+Oph3sdpQNnLrfRVbvxjzuvlXTGXZZu9q3MJYcdrYD9XvgeMlBmGOxt8ls7g==",
   "success": true,
   "projectFilePath": "C:\\Users\\SANDRA\\Ejercicio_FInal\\Passengers\\Passengers.WebApi\\Passengers.UnitTest\\Passengers.UnitTest.csproj",
   "expectedPackageFiles": [
@@ -70,6 +70,7 @@
     "C:\\Users\\SANDRA\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\SANDRA\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.9.4\\microsoft.testplatform.objectmodel.16.9.4.nupkg.sha512",
     "C:\\Users\\SANDRA\\.nuget\\packages\\microsoft.testplatform.testhost\\16.9.4\\microsoft.testplatform.testhost.16.9.4.nupkg.sha512",
+    "C:\\Users\\SANDRA\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\SANDRA\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\SANDRA\\.nuget\\packages\\microsoft.win32.registry\\4.3.0\\microsoft.win32.registry.4.3.0.nupkg.sha512",
     "C:\\Users\\SANDRA\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",

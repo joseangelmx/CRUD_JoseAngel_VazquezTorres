@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tickets.DataAccess", "Ticke
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tickets.UnitTest", "Tickets.UnitTest\Tickets.UnitTest.csproj", "{EC704AF1-EFA2-4A06-95E9-B500CAA1B549}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tickets.Shared", "Tickets.Shared\Tickets.Shared.csproj", "{211773C8-281B-4DAA-9394-5B96A0585A02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tickets.Shared", "Tickets.Shared\Tickets.Shared.csproj", "{211773C8-281B-4DAA-9394-5B96A0585A02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

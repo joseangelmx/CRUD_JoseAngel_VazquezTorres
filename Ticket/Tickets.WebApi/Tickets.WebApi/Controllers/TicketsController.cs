@@ -8,6 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Tickets.ApplicationServices.Tickets;
 using Tickets.Core.Tickets;
+using Tickets.WebApi.Checkers;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -88,6 +89,14 @@ namespace Tickets.WebApi.Controllers
 
             try
             {
+                Checker checker = new Checker();
+                bool areIdsValid = await checker.AreIdsValidAsync(value.JourneyId, value.PassengerId);
+
+                if (!areIdsValid)
+                {
+                    return BadRequest("Invalid JourneyId or PassengerId");
+                }
+
                 await _ticketsAppService.AddTicketAsync(value);
                 _logger.LogInformation($"New Ticket {value.Id} has been added");
                 return Ok();
